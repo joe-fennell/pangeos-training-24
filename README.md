@@ -1,7 +1,15 @@
-# PANGEOS: Joint uncertainty analysis and protocol standardization assessment summer school on novel and operational hyperspectral data products
+# Satellite Uncertainty Simulation with the PyEOSim Framework
+
+<img src="src/sate_dalle3.jpg" alt="Conceptual diagram" width="30%"/>
+
+*Tutorials prepared for the PANGEOS Summer School, Bucharest, 30th September-5th October 2024.*
+
+# Prerequisites
+1. Basic Python and Jupyter labs knowledge to use the Tutorials
+2. Follow the installation guide [here](Treeview/pangeos-training-24/PANGEOS24_Case_Study_3B_Pre_Workshop.pdf)
 
 # Background
-End-to-end simulators for simulating optical Earth observation imagery are crucial for developing, testing, and optimising satellite instruments and observation strategies. The PyEOSim software is based on a published approach that provided a comprehensive methodology for end-to-end simulation of optical Earth observation imagery (Coppo et al., 2013). The study outlines a software tool designed for simulating data produced by optical instruments, utilising synthetic or airborne hyperspectral data. The simulator includes modules for generating the reflectance scenario, atmosphere, and instrument, allowing detailed simulation of everything from panchromatic to hyperspectral imagery. The flexible and modular approach allows for assessing target detection scenarios, data quality, and the impact of optical design on image quality, making this useful for designing new Earth observation optical instruments. The original software was validated through comparisons of synthetic and real spectra from ground and airborne platforms.
+End-to-end simulators for simulating optical Earth observation imagery are crucial for developing, testing, and optimising satellite instruments and observation strategies. The PyEOSim software is based on a published approach that provided a comprehensive methodology for end-to-end simulation of optical Earth observation imagery ([Coppo et al., 2013](https://typeset.io/papers/end-to-end-image-simulator-for-optical-imaging-systems-4huj67sbfv)). The study outlines a software tool designed for simulating data produced by optical instruments, utilising synthetic or airborne hyperspectral data. The simulator includes modules for generating the reflectance scenario, atmosphere, and instrument, allowing detailed simulation of everything from panchromatic to hyperspectral imagery. The flexible and modular approach allows for assessing target detection scenarios, data quality, and the impact of optical design on image quality, making this useful for designing new Earth observation optical instruments. The original software was validated through comparisons of synthetic and real spectra from ground and airborne platforms.
 
 The PyEOSim module is a python library, written in 2020 to support the TreeView Mission Feasibility Study. It was used extensively to generate synthetic data for different bandpass filters and atmospheric scenarios, specifically to constrain the system requirements. Since 2020, there have been a number of other publications relating to imagery emulation but these did not have readily-available code or software available. [Matthews et al. (2023)](https://typeset.io/papers/demonstration-of-a-modular-prototype-end-to-end-simulator-55b6cwvsne?utm_source) present an approach for simulating multispectral imagery over water for various satellite instrument models. This simulator evaluates the impact of different sensor configurations on remote sensing products in aquatic environments, such as coral reefs and cyanobacterial blooms. It provides a tool for scientists and engineers to understand design trade-offs and optimise sensor specifications before deployment. It may be possible to obtain the software by [contacting them directly](https://www.smartsatcrc.com/). [Ravindra et al. (2021)](https://typeset.io/papers/earth-observation-simulator-eo-sim-an-open-source-software-q65x60sywc) present an open-source platform that facilitates the design and simulation of satellite constellations. This is more related to orbital design, however the instrupy module may have useful tools for atmospheric and geometric simulation. The code repositories related to this project are located [here](https://github.com/EarthObservationSimulator).
 
@@ -11,14 +19,14 @@ We designed the library with three core principles:
 
 - **OpenSource** - so that the code can be used for any purpose, including commercial applications.
 
-- **Minimal **- we avoided writing lots of features so that the core code is stable and flexible.
+- **Minimal**- we avoided writing lots of features so that the core code is stable and flexible.
 
-- **Scalable **- the code has been built on [xarray](https://docs.xarray.dev/en/stable/) meaning that it can be run at scale if required
+- **Scalable**- the code has been built on [xarray](https://docs.xarray.dev/en/stable/) meaning that it can be run at scale if required
 
 ***References***
 
-**Coppo, P.,** Chiarantini, L., & Alparone, L. (2013). End-to-End Image Simulator for Optical Imaging Systems: Equations and Simulation Examples. Advances in Optical Technologies. Available at:[ https://typeset.io/papers/end-to-end-image-simulator-for-optical-imaging-systems-4huj67sbfv](https://typeset.io/papers/end-to-end-image-simulator-for-optical-imaging-systems-4huj67sbfv?utm_source=chatgpt)
+**Coppo, P.,** Chiarantini, L., & Alparone, L. (2013). End-to-End Image Simulator for Optical Imaging Systems: Equations and Simulation Examples. Advances in Optical Technologies. Available at: [https://typeset.io/papers/end-to-end-image-simulator-for-optical-imaging-systems-4huj67sbfv](https://typeset.io/papers/end-to-end-image-simulator-for-optical-imaging-systems-4huj67sbfv)
 
-**Matthews, M. W.,** Dekker, A., Price, I., Drayson, N., Pease, J., Antoine, D., Anstee, J., Sharp, R., Woodgate, W., Phinn, S., & Gensemer, S. (2023). Demonstration of a Modular Prototype End-to-End Simulator for Aquatic Remote Sensing Applications. Journal Article. Available at:[ ](https://typeset.io/papers/demonstration-of-a-modular-prototype-end-to-end-simulator-55b6cwvsne?utm_source=chatgpt)[https://www.mdpi.com/1424-8220/23/18/7824](https://www.mdpi.com/1424-8220/23/18/7824)
+**Matthews, M. W.,** Dekker, A., Price, I., Drayson, N., Pease, J., Antoine, D., Anstee, J., Sharp, R., Woodgate, W., Phinn, S., & Gensemer, S. (2023). Demonstration of a Modular Prototype End-to-End Simulator for Aquatic Remote Sensing Applications. Journal Article. Available at: [https://www.mdpi.com/1424-8220/23/18/7824](https://www.mdpi.com/1424-8220/23/18/7824)
 
-**Ravindra, V.,** Ketzner, R., & Nag, S. (2021). Earth Observation Simulator (EO-Sim): An Open-Source Software for Observation Systems Design. International Geoscience and Remote Sensing Symposium. Available at:[ https://typeset.io/papers/earth-observation-simulator-eo-sim-an-open-source-software-q65x60sywct](https://typeset.io/papers/earth-observation-simulator-eo-sim-an-open-source-software-q65x60sywc?utm_source=chatgpt).
+**Ravindra, V.,** Ketzner, R., & Nag, S. (2021). Earth Observation Simulator (EO-Sim): An Open-Source Software for Observation Systems Design. International Geoscience and Remote Sensing Symposium. Available at:[https://typeset.io/papers/earth-observation-simulator-eo-sim-an-open-source-software-q65x60sywct](https://typeset.io/papers/earth-observation-simulator-eo-sim-an-open-source-software-q65x60sywc)
