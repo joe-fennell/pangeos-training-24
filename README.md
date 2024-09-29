@@ -57,6 +57,11 @@ cd pyeosim
 pip install .
 ```
 
+You may also need to install pyproj manually for Tutorial 1:
+```sh
+pip install pyproj
+```
+
 The final thing you need to do is clone this repository so that you can work on the tutorials on your local machine:
 ```sh
 cd ..
