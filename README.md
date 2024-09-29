@@ -13,7 +13,7 @@ The suggested learning outcomes for this session are:
 - To understand the PyEOSim python module and its applications for uncertainty modelling
 - To have identified opportunities for use of simulation data in your work
 
-The case study session uses Jupyter Notebooks that you will run on your local machine. The first notebook explains the simulation framework and how to run a basic simulation ([1_Tutorial_PyEOSim_intro](https://github.com/joe-fennell/pangeos-training-24/1_Tutorial_PyEOSim_intro.ipynb)). The second notebook ([2_Tutorial_uncertainty_experiments](https://github.com/joe-fennell/pangeos-training-24/2_Tutorial_uncertainty_experiments.ipynb)) contains some open examples and activities to explore uncertainty analysis with the framework.
+The case study session uses Jupyter Notebooks that you will run on your local machine. The first notebook explains the simulation framework and how to run a basic simulation ([1_Tutorial_PyEOSim_intro](https://github.com/joe-fennell/pangeos-training-24/blob/main/1_Tutorial_PyEOSim_intro.ipynb)). The second notebook ([2_Tutorial_uncertainty_experiments](https://github.com/joe-fennell/pangeos-training-24/blob/main/2_Tutorial_uncertainty_experiments.ipynb)) contains some open examples and activities to explore uncertainty analysis with the framework.
 
 If you're new to Jupyter Notebooks, you might find it useful [to visit this tutorial](https://jupyter.org/try-jupyter/notebooks/?path=notebooks/Intro.ipynb) before continuing with the tutorials.
 
