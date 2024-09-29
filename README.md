@@ -5,9 +5,11 @@
 <img src="src/sate_dalle3.jpg" alt="DallE" width="100%"/>
 </p>
 
+This repository contains resources for a 3-hour introduction to PyEOSim for uncertainty analysis. This session was run as part of the Summer School, Bucharest, 30th September-5th October 2024 under the [PANGEOS COST action](https://pangeos.eu/).
+
 In this session we will look at an end-to-end simulator for satellite imagery data and how this can help evaluate system design.
 
-This repository contains everything you need for Case Study 3B of the PANGEOS Summer School, Bucharest, 30th September-5th October 2024. 
+
 
 The suggested learning outcomes for this session are:
 - To understand the PyEOSim python module and its applications for uncertainty modelling
