@@ -1,6 +1,5 @@
 # Satellite Simulation for Uncertainty Estimation with the PyEOSim Framework
-#### Joe Fennell
-#### September, 2024
+#### Joe Fennell | September 2024
 <br>
 <p align="center">
 <img src="src/sate_dalle3.jpg" alt="DallE" width="100%"/>

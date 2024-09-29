@@ -8,8 +8,8 @@ file_ids = {
     'Milton_Keynes_labels.gpkg': '1CZDNtSgMJpGt6TODydgK3KM2_euoN8X6',
     'Milton_Keynes_aerial_VisVNIR.nc': '18qwWje55m1Kt2AKrJHeqNTk_cBa-BY9a',
     'Milton_Keynes_aerial_SWIR.nc': '1sGtxaEIqlZ80VYRfZUUEdOC9_Hp4THkh',
-    'Milton_Keynes_Sentinel2_L2A.nc': '1_RWZ3VlOyG2UBkcaXsVrw1Ny3pl4zM8l',
-    'Milton_Keynes_Sentinel2_L1C.nc': '1HRrFpJK8EhPuT5cvxBBqS_u64jlw9_9Q',
+    'Milton_Keynes_Sentinel2_L2A.nc': '1SzurMfuv5IsbP5ekqE6IUj6jGpdQrEPZ',
+    'Milton_Keynes_Sentinel2_L1C.nc': '1AFXr2s15aIzRt2-3jcJqhYa-TqucPLEF',
 }
 
 file_paths = [os.path.join('data', x) for x in file_ids.keys()]
@@ -58,4 +58,4 @@ def download():
 
 
 if __name__ == "__main__":
-    download_course_data()
+    download()
