@@ -44,7 +44,12 @@ def _download_file_from_google_drive(file_id, destination):
     raise RuntimeError(f'{file_id} could not be downloaded')
 
 
+def _make_directory():
+    os.makedirs(DST_DIR, exist_ok=True)
+    
+    
 def download():
+    _make_directory()
     total = len(file_ids)
     current = 1
     for fname, fid in file_ids.items():
