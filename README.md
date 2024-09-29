@@ -1,5 +1,6 @@
 # Satellite Simulation for Uncertainty Estimation with the PyEOSim Framework
-#### J. Fennell, 2024
+#### Joe Fennell
+#### September, 2024
 <br>
 <p align="center">
 <img src="src/sate_dalle3.jpg" alt="DallE" width="100%"/>
@@ -98,9 +99,9 @@ We designed the library with three core principles:
 
 # Tutorials
 
-[1_Tutorial_PyEOSim_intro](https://github.com/joe-fennell/pangeos-training-24/1_Tutorial_PyEOSim_intro.ipynb')
+[1_Tutorial_PyEOSim_intro](https://github.com/joe-fennell/pangeos-training-24/blob/main/1_Tutorial_PyEOSim_intro.ipynb)
 
-[2_Tutorial_uncertainty_experiments](https://github.com/joe-fennell/pangeos-training-24/2_Tutorial_uncertainty_experiments.ipynb')
+[2_Tutorial_uncertainty_experiments](https://github.com/joe-fennell/pangeos-training-24/blob/main/2_Tutorial_uncertainty_experiments.ipynb)
 
 # Evaluation
 I would greatly appreciate your feedback at the end of the session. Please provide anonymous feedback using the [Google Form here](https://forms.gle/cEQhmEaQYbSgEpAE9) (no email address or identifier collected).
