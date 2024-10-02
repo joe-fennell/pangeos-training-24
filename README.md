@@ -59,9 +59,23 @@ cd pyeosim
 pip install .
 ```
 
-You may also need to install pyproj manually for Tutorial 1:
+You will need to install pyproj manually for Tutorial 1:
 ```sh
 pip install pyproj
+```
+
+If you are planning to run Tutorial 2, there are other dependencies you can install with conda, pip or mamba:
+```sh
+conda install rioxarray
+conda install geopandas
+conda install scikit-learn
+
+```
+
+```sh
+pip install rioxarray
+pip install geopandas
+pip install scikit-learn
 ```
 
 The final thing you need to do is clone this repository so that you can work on the tutorials on your local machine:
